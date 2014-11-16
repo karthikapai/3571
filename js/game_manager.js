@@ -104,7 +104,7 @@ GameManager.prototype.moveTile = function (tile, cell) {
 // Tests if two values sum to a Fibonacci number
 GameManager.prototype.testFib = function(val1, val2) {
   var sum = val1 + val2;
-  var fib = [1,1]
+  var fib = [2,1]
 
   while (sum > fib[fib.length-1]) {
     fib.push(fib[fib.length-1] + fib[fib.length-2])
